@@ -132,7 +132,7 @@
                         <Button Tag="01" Content="{Binding Gameboard.CurrentBoard[0][1]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
                         <Button Tag="02" Content="{Binding Gameboard.CurrentBoard[0][2]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
                         <Button Tag="03" Content="{Binding Gameboard.CurrentBoard[0][3]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
-                        <Button Tag="10" Content="{Binding Gameboard.CurrentBoard[1][0]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
+                        <Button Tag="10 " Content="{Binding Gameboard.CurrentBoard[1][0]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
                         <Button Tag="11" Content="{Binding Gameboard.CurrentBoard[1][1]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
                         <Button Tag="12" Content="{Binding Gameboard.CurrentBoard[1][2]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
                         <Button Tag="13" Content="{Binding Gameboard.CurrentBoard[1][3]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
