@@ -126,7 +126,7 @@
                         Grid.Row="0"
                         Width="500"
                         Height="400"
-                        Rows="4"
+                        Rows="4" 
                         Columns="4">
                         <Button Tag="00" Content="{Binding Gameboard.CurrentBoard[0][0]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
                         <Button Tag="01" Content="{Binding Gameboard.CurrentBoard[0][1]}" Style="{StaticResource GameBoardButtonStyle}" Click="GameBoard_Click"/>
